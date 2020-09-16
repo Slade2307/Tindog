@@ -1,0 +1,176 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  font-family: "Ubuntu";
+  color: #8f8f8f;
+}
+
+/*******HEADINGS********/
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/**********CONTAINERS*************/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/*************SECTIONS***********/
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section {
+  background-color: white;
+}
+
+/***** Navigation bar *****/
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "sans-serif";
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* DOWNLOAD BUTTON */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/**************TITLE SECTION***********/
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* TITLE IMAGE */
+.title-image {
+  width: 60%;
+  position: absolute;
+  transform: rotate(25deg);
+  right: 30%;
+}
+
+/* ICONS */
+.fa-check-circle {
+  color: #ef8172;
+}
+.fa-bullseye {
+  color: #ef8172;
+}
+.fa-heart {
+  color: #ef8172;
+}
+/*******************FEATURE SECTION***************/
+#features {
+  position: relative;
+  z-index: 1;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 5%;
+}
+.icon {
+  padding: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/********TESTIMONIALS************/
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/***************PRICING SECTION****************/
+#pricing {
+  padding: 100px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/******CTA SECTION*******/
+
+.cta-heading {
+  font-family: "montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/******FOOTER SECTION*******/
+#footer {
+  background-color: white;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+/******MEDIA QUERY SECTION*******/
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
